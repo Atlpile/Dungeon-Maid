@@ -1,0 +1,685 @@
+fileFormatVersion: 2
+guid: f0a931950c88bf84d8fdbaab4f91ce02
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1247011880411434710
+    second: Mon5_idle_1
+  - first:
+      213: -7922056117195300505
+    second: Mon5_idle_2
+  - first:
+      213: 1781604787697302373
+    second: Mon5_idle_3
+  - first:
+      213: -3064206647782477871
+    second: Mon5_idle_4
+  - first:
+      213: 3902819144775817769
+    second: Mon5_run_1
+  - first:
+      213: -6926884500100497121
+    second: Mon5_run_2
+  - first:
+      213: 7523221891867420670
+    second: Mon5_run_3
+  - first:
+      213: 4831011300091883341
+    second: Mon5_attack_1
+  - first:
+      213: 2277135962907131057
+    second: Mon5_attack_2
+  - first:
+      213: -6517343402012789123
+    second: Mon5_attack_3
+  - first:
+      213: -6413059329597821302
+    second: Mon5_attack_4
+  - first:
+      213: 3625698069486405659
+    second: Mon6_idle_1
+  - first:
+      213: 7954138025655117974
+    second: Mon6_idle_2
+  - first:
+      213: 5494132811570890805
+    second: Mon6_run_1
+  - first:
+      213: 2722456532209931888
+    second: Mon6_run_2
+  - first:
+      213: -6381756369412246065
+    second: Mon6_run_3
+  - first:
+      213: 5192994444989140365
+    second: Mon6_run_4
+  - first:
+      213: 8878058676132926071
+    second: Mon6_attack_1
+  - first:
+      213: 3453774218992582244
+    second: Mon6_attack_2
+  - first:
+      213: -351590912181816134
+    second: Mon6_attack_3
+  - first:
+      213: 6766667180933968859
+    second: Mon6_attack_4
+  - first:
+      213: 1461528317149892831
+    second: Mon_3_2048_21
+  - first:
+      213: 7723412265235438578
+    second: Mon_3_2048_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mon5_idle_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1607
+        width: 200
+        height: 441
+      alignment: 9
+      pivot: {x: 0.385, y: 0}
+      border: {x: 77, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de8d92c2b64e4110800000000000000
+      internalID: 1247011880411434710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_idle_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1607
+        width: 200
+        height: 441
+      alignment: 9
+      pivot: {x: 0.39499998, y: -0}
+      border: {x: 79, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7612ddb2fe33f0290800000000000000
+      internalID: -7922056117195300505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_idle_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1607
+        width: 200
+        height: 441
+      alignment: 9
+      pivot: {x: 0.375, y: -0}
+      border: {x: 75, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b35d47d1889b810800000000000000
+      internalID: 1781604787697302373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_idle_4
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1607
+        width: 200
+        height: 441
+      alignment: 9
+      pivot: {x: 0.37, y: 0}
+      border: {x: 74, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfe888e940c975d0800000000000000
+      internalID: -3064206647782477871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_run_1
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 1607
+        width: 322
+        height: 441
+      alignment: 9
+      pivot: {x: 0.7173913, y: -0}
+      border: {x: 231, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ad4fa8559992630800000000000000
+      internalID: 3902819144775817769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_run_2
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1607
+        width: 349
+        height: 441
+      alignment: 9
+      pivot: {x: 0.6905444, y: 0}
+      border: {x: 241, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11c9535f33cedf90800000000000000
+      internalID: -6926884500100497121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_run_3
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1607
+        width: 357
+        height: 441
+      alignment: 9
+      pivot: {x: 0.66386557, y: 0}
+      border: {x: 237, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7233f637ad76860800000000000000
+      internalID: 7523221891867420670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_attack_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1157
+        width: 172
+        height: 441
+      alignment: 9
+      pivot: {x: 0.29651162, y: 0}
+      border: {x: 51, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fefdf7e233b0340800000000000000
+      internalID: 4831011300091883341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_attack_2
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1157
+        width: 172
+        height: 441
+      alignment: 9
+      pivot: {x: 0.29651162, y: 0}
+      border: {x: 51, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcb85ee7130a9f10800000000000000
+      internalID: 2277135962907131057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_attack_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 1157
+        width: 330
+        height: 441
+      alignment: 9
+      pivot: {x: 0.6333333, y: 0}
+      border: {x: 209, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76bacbc4bebd85a0800000000000000
+      internalID: -6517343402012789123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon5_attack_4
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1157
+        width: 374
+        height: 441
+      alignment: 9
+      pivot: {x: 0.6764706, y: 0}
+      border: {x: 253, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e21df748c3007a0800000000000000
+      internalID: -6413059329597821302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_idle_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 446
+        width: 264
+        height: 437
+      alignment: 9
+      pivot: {x: 0.5984849, y: 0}
+      border: {x: 158, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b188e863f21115230800000000000000
+      internalID: 3625698069486405659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_idle_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 446
+        width: 263
+        height: 437
+      alignment: 9
+      pivot: {x: 0.60076046, y: -0}
+      border: {x: 158, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698a9993466c26e60800000000000000
+      internalID: 7954138025655117974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_run_1
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 446
+        width: 293
+        height: 437
+      alignment: 9
+      pivot: {x: 0.68941975, y: -0}
+      border: {x: 202, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5384086dea41f3c40800000000000000
+      internalID: 5494132811570890805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_run_2
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 446
+        width: 326
+        height: 437
+      alignment: 9
+      pivot: {x: 0.6349693, y: -0}
+      border: {x: 207, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07690d6bacb18c520800000000000000
+      internalID: 2722456532209931888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_run_3
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 449
+        width: 305
+        height: 437
+      alignment: 9
+      pivot: {x: 0.6721311, y: -0}
+      border: {x: 205, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5b81ed4627f67a0800000000000000
+      internalID: -6381756369412246065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_run_4
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 446
+        width: 271
+        height: 437
+      alignment: 9
+      pivot: {x: 0.75645757, y: -0}
+      border: {x: 205, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d872e1fe8311840800000000000000
+      internalID: 5192994444989140365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_attack_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 239
+        height: 435
+      alignment: 9
+      pivot: {x: 0.56485355, y: 0}
+      border: {x: 135, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7725af5f353353b70800000000000000
+      internalID: 8878058676132926071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_attack_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 2
+        width: 235
+        height: 435
+      alignment: 9
+      pivot: {x: 0.46808508, y: 0}
+      border: {x: 110, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e74717a554eef20800000000000000
+      internalID: 3453774218992582244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_attack_3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2
+        width: 254
+        height: 435
+      alignment: 9
+      pivot: {x: 0.5866142, y: 0}
+      border: {x: 149, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4b52d9de5ee1bf0800000000000000
+      internalID: -351590912181816134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon6_attack_4
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 2
+        width: 293
+        height: 435
+      alignment: 9
+      pivot: {x: 0.6450512, y: 0}
+      border: {x: 189, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3fcd023f708ed50800000000000000
+      internalID: 6766667180933968859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_3_2048_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1157
+        width: 1186
+        height: 441
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0d4ecc244684410800000000000000
+      internalID: 1461528317149892831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mon_3_2048_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 1829
+        height: 435
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbd04be8821f2b60800000000000000
+      internalID: 7723412265235438578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Mon_3_2048_21: 1461528317149892831
+      Mon6_run_1: 5494132811570890805
+      Mon6_attack_4: 6766667180933968859
+      Mon5_run_3: 7523221891867420670
+      Mon6_run_2: 2722456532209931888
+      Mon5_run_2: -6926884500100497121
+      Mon_3_2048_22: 7723412265235438578
+      Mon5_attack_4: -6413059329597821302
+      Mon6_run_4: 5192994444989140365
+      Mon6_run_3: -6381756369412246065
+      Mon5_idle_3: 1781604787697302373
+      Mon6_idle_2: 7954138025655117974
+      Mon5_run_1: 3902819144775817769
+      Mon5_idle_1: 1247011880411434710
+      Mon5_attack_2: 2277135962907131057
+      Mon6_attack_3: -351590912181816134
+      Mon6_idle_1: 3625698069486405659
+      Mon5_idle_2: -7922056117195300505
+      Mon5_idle_4: -3064206647782477871
+      Mon5_attack_1: 4831011300091883341
+      Mon6_attack_1: 8878058676132926071
+      Mon5_attack_3: -6517343402012789123
+      Mon6_attack_2: 3453774218992582244
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

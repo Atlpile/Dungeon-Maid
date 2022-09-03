@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: f52e71b78eb55c24b962a5cac7a1dbe2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 368567252661595347
+    second: m_jumpAttack_0
+  - first:
+      213: 7317792850762829227
+    second: m_jumpAttack_1
+  - first:
+      213: -6472958979949571690
+    second: m_jumpAttack_2
+  - first:
+      213: 6563685587370758932
+    second: m_jumpAttack_3
+  - first:
+      213: 3871285200040061054
+    second: m_fallAttack_0
+  - first:
+      213: 1312791092174670603
+    second: m_fallAttack_1
+  - first:
+      213: -4617677596425779230
+    second: m_fallAttack_2
+  - first:
+      213: 2029638837337299557
+    second: m_fallAttack_3
+  - first:
+      213: -1994250881965461601
+    second: m_fallAttack_4
+  - first:
+      213: -430946824037711557
+    second: m_fallAttack_5
+  - first:
+      213: -5350740817878758158
+    second: Player1_1_5_10
+  - first:
+      213: 4943103418385615130
+    second: Player1_1_5_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: m_jumpAttack_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1370
+        width: 362
+        height: 657
+      alignment: 9
+      pivot: {x: 0.4005525, y: -0}
+      border: {x: 145, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc6cbaa6f96d1500800000000000000
+      internalID: 368567252661595347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_jumpAttack_1
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1370
+        width: 419
+        height: 658
+      alignment: 9
+      pivot: {x: 0.48687354, y: -0}
+      border: {x: 204, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bad8c9193d50e8560800000000000000
+      internalID: 7317792850762829227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_jumpAttack_2
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1370
+        width: 413
+        height: 658
+      alignment: 9
+      pivot: {x: 0.4745763, y: -0}
+      border: {x: 196, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6915e6a5a1e6b26a0800000000000000
+      internalID: -6472958979949571690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_jumpAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 1370
+        width: 356
+        height: 658
+      alignment: 9
+      pivot: {x: 0.3988764, y: 0}
+      border: {x: 142, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413d59c0445e61b50800000000000000
+      internalID: 6563685587370758932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_fallAttack_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 712
+        width: 350
+        height: 634
+      alignment: 9
+      pivot: {x: 0.3885714, y: -0}
+      border: {x: 136, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e786d94e06199b530800000000000000
+      internalID: 3871285200040061054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_fallAttack_1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 712
+        width: 365
+        height: 634
+      alignment: 9
+      pivot: {x: 0.41369864, y: -0}
+      border: {x: 151, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b4e59fa88f73210800000000000000
+      internalID: 1312791092174670603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_fallAttack_2
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 712
+        width: 389
+        height: 634
+      alignment: 9
+      pivot: {x: 0.44730076, y: 0}
+      border: {x: 174, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e703c901b6baefb0800000000000000
+      internalID: -4617677596425779230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_fallAttack_3
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 712
+        width: 405
+        height: 634
+      alignment: 9
+      pivot: {x: 0.46913582, y: 0}
+      border: {x: 190, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a93d1e4c9ba2c10800000000000000
+      internalID: 2029638837337299557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_fallAttack_4
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 31
+        width: 427
+        height: 630
+      alignment: 9
+      pivot: {x: 0.4964871, y: 0}
+      border: {x: 212, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f607b836ff254e0800000000000000
+      internalID: -1994250881965461601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: m_fallAttack_5
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 33
+        width: 427
+        height: 634
+      alignment: 9
+      pivot: {x: 0.498829, y: -0}
+      border: {x: 213, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3146249528f40af0800000000000000
+      internalID: -430946824037711557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_5_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 712
+        width: 1723
+        height: 634
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc472953995eb5b0800000000000000
+      internalID: -5350740817878758158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player1_1_5_11
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1370
+        width: 1710
+        height: 657
+      alignment: 9
+      pivot: {x: 0.40331492, y: 0.0608828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19c4ec8e5e699440800000000000000
+      internalID: 4943103418385615130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      m_jumpAttack_3: 6563685587370758932
+      m_jumpAttack_2: -6472958979949571690
+      Player1_1_5_10: -5350740817878758158
+      Player1_1_5_11: 4943103418385615130
+      m_jumpAttack_0: 368567252661595347
+      m_jumpAttack_1: 7317792850762829227
+      m_fallAttack_5: -430946824037711557
+      m_fallAttack_2: -4617677596425779230
+      m_fallAttack_3: 2029638837337299557
+      m_fallAttack_4: -1994250881965461601
+      m_fallAttack_1: 1312791092174670603
+      m_fallAttack_0: 3871285200040061054
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
