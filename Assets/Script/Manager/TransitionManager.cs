@@ -34,7 +34,7 @@ public class TransitionManager : BaseManager<TransitionManager>
         while (!ao.isDone)
         {
             //事件中心更新进度情况，可以向外分发进度
-            EventCenter.Instance.EventTrigger("进度条更新", ao.progress);
+            EventManager.Instance.EventTrigger("进度条更新", ao.progress);
             //更新进度条
             yield return ao.progress;
         }

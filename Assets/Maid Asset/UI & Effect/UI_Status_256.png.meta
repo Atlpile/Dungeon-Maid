@@ -62,7 +62,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -103,11 +103,23 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Status_256_0
+      name: m_UI_StatusBackground
       rect:
         serializedVersion: 2
         x: 6
@@ -128,7 +140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_healthBar
+      name: m_UI_healthBar
       rect:
         serializedVersion: 2
         x: 4
@@ -149,7 +161,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_magicBar
+      name: m_UI_magicBar
       rect:
         serializedVersion: 2
         x: 4
@@ -170,34 +182,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ui_itemSlot_1
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 69
-        width: 92
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f30963c216ec63c30800000000000000
-      internalID: 4338882207766974527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ui_itemSlot2
+      name: m_UI_Slot
       rect:
         serializedVersion: 2
         x: 7
         y: 2
         width: 92
-        height: 26
+        height: 93
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,8 +196,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e7607af2f92f1e60800000000000000
-      internalID: 7935107192010598377
+      spriteID: 8f70b9b4449ae0f4bbd358e23d80d771
+      internalID: -980079368
       vertices: []
       indices: 
       edges: []
@@ -222,11 +213,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      ui_healthBar: -315837995177026090
-      ui_itemSlot_1: 4338882207766974527
-      ui_itemSlot2: 7935107192010598377
-      ui_magicBar: 7655175711704226586
-      UI_Status_256_0: 3289369499560857669
+      m_UI_magicBar: 7655175711704226586
+      m_UI_Slot: -980079368
+      m_UI_itemSlotTop: 4338882207766974527
+      m_UI_StatusBackground: 3289369499560857669
+      m_UI_healthBar: -315837995177026090
+      m_UI_itemSlotBottom: 7935107192010598377
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

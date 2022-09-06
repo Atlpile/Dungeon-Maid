@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerDash : MonoBehaviour
 {
     private PlayerController maidController;
+    private Collider2D dashColl;
 
     [Header("Dash参数")]
     [SerializeField] private float dashSpeed = 50f;
@@ -17,11 +18,7 @@ public class PlayerDash : MonoBehaviour
     private void Awake()
     {
         maidController = GetComponent<PlayerController>();
-    }
-
-    private void Start()
-    {
-
+        dashColl = GetComponent<Collider2D>();
     }
 
     public void ReadyToDash()

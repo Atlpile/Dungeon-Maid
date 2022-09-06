@@ -34,10 +34,10 @@ public class ResourcesManager : BaseManager<ResourcesManager>
     /// <typeparam name="T"></typeparam>
     public void LoadAsync<T>(string pathAndName, UnityAction<T> callback) where T : Object
     {
-        StartCoroutine(ReallyLoadAsync(pathAndName, callback));
+        StartCoroutine(IE_LoadAsync(pathAndName, callback));
     }
 
-    private IEnumerator ReallyLoadAsync<T>(string pathAndName, UnityAction<T> callback) where T : Object
+    private IEnumerator IE_LoadAsync<T>(string pathAndName, UnityAction<T> callback) where T : Object
     {
         ResourceRequest res = Resources.LoadAsync<T>(pathAndName);
         yield return res;

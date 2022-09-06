@@ -14,9 +14,11 @@ public class PlayerStatus : MonoBehaviour
 
     [Header("Player状态")]
     public bool isDead;
+    public bool isVertigo;
     public bool isInvicible;
     public bool canHurt;
 
+    [Header("Reference")]
     private Animator maidAnim;
     private Rigidbody2D rb;
 
@@ -36,8 +38,10 @@ public class PlayerStatus : MonoBehaviour
 
     public void LoadPlayerData()
     {
-
+        //TODO:加载Player数据（切换场景/加载游戏）
     }
+
+    #region 血量相关
 
     public void PlayerHurt(int damage, Transform attacker)
     {
@@ -71,6 +75,10 @@ public class PlayerStatus : MonoBehaviour
         maidData.currentHP = Mathf.Max(maidData.currentHP - damage, 0);
     }
 
+    #endregion
+
+    #region 蓝量相关
+
     public void LossMagic(int magic)
     {
         if (maidData.currentMP > 0)
@@ -91,9 +99,16 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
+    #endregion
+
     public void PlayerDead()
     {
-
+        if (maidData.currentHP == 0)
+            isDead = true;
     }
 
+    public void PlayerVertigo()
+    {
+        //TODO:眩晕设置
+    }
 }

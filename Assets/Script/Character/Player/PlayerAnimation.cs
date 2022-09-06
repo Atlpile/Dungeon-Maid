@@ -6,23 +6,26 @@ public class PlayerAnimation : MonoBehaviour
 {
     private Animator anim;
     private Rigidbody2D rb;
-    private PlayerController maid;
+    private PlayerController maidController;
+    private PlayerStatus maidStatus;
 
     private void Awake()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        maid = GetComponent<PlayerController>();
+        maidController = GetComponent<PlayerController>();
+        maidStatus = GetComponent<PlayerStatus>();
     }
 
     private void Update()
     {
         anim.SetFloat("SpeedX", Mathf.Abs(rb.velocity.x));
-        anim.SetBool("Ground", maid.isGround);
-        anim.SetBool("Jump", maid.isJump);
-        anim.SetBool("Fall", maid.isFall);
-        anim.SetBool("Crouch", maid.isCrouch);
-        anim.SetBool("Dash", maid.isDashing);
+        anim.SetBool("Ground", maidController.isGround);
+        anim.SetBool("Jump", maidController.isJump);
+        anim.SetBool("Fall", maidController.isFall);
+        anim.SetBool("Crouch", maidController.isCrouch);
+        anim.SetBool("Dash", maidController.isDashing);
+        anim.SetBool("Dead", maidStatus.isDead);
     }
 
     #region Animation Event

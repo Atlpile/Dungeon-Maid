@@ -5,14 +5,15 @@ using UnityEngine;
 public class AudioManager : BaseManager<AudioManager>
 {
     private Dictionary<string, int> AudioDict = new Dictionary<string, int>();
-    [SerializeField] private AudioSource BGM_AS;
-    [SerializeField] private AudioSource SoundClip_AS;
+    private AudioSource BGM_AS;
+    private AudioSource SoundClip_AS;
     public string currentBGM = "";
+
+
     protected override void Awake()
     {
         base.Awake();
     }
-
 
     private void Update()
     {
@@ -40,6 +41,7 @@ public class AudioManager : BaseManager<AudioManager>
             BGMResume();
         }
     }
+
 
     public void SoundPlay(string audioName, float volume = 0.5f)
     {
@@ -184,12 +186,17 @@ public class AudioManager : BaseManager<AudioManager>
         if (BGM_AS != null) BGM_AS.Play();
     }
 
+    public void SetBGMVolume(float volume)
+    {
+
+    }
+
+
     private AudioClip GetAudioClip(string audioName)
     {
         AudioClip resAudioClip = (AudioClip)ResourceLoader.Instance.Load(E_ResourceType.Audio, audioName);
         return resAudioClip;
     }
-
 
     private void PlayBGMClip(AudioClip audioClip, string name = null, float volume = 1f, bool isloop = true)
     {

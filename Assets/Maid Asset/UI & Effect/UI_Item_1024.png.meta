@@ -1100,9 +1100,9 @@ TextureImporter:
       name: item_yellowKey
       rect:
         serializedVersion: 2
-        x: 167
+        x: 165
         y: 747
-        width: 44
+        width: 46
         height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1121,10 +1121,10 @@ TextureImporter:
       name: item_redKey
       rect:
         serializedVersion: 2
-        x: 222
+        x: 220
         y: 747
-        width: 42
-        height: 47
+        width: 46
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,10 +1163,10 @@ TextureImporter:
       name: item_blueKey
       rect:
         serializedVersion: 2
-        x: 326
-        y: 748
-        width: 49
-        height: 50
+        x: 328
+        y: 747
+        width: 46
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2020,6 +2020,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: UI_Item_1024_0
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 747
+        width: 208
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d8a482c6072624e8a1d8023db26ba8
+      internalID: 754514405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -2061,6 +2082,7 @@ TextureImporter:
       UI_Item_1024_66: -8276210041719023799
       UI_Item_1024_8: -5443882357402534108
       item_hp: 1591351527364819242
+      UI_Item_1024_0: 754514405
       m_LockRed: -534753738203559093
       UI_Item_1024_32: -6941581964957940950
       item_coinPack: -2028233093648591448

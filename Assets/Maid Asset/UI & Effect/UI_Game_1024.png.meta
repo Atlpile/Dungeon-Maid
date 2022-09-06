@@ -797,7 +797,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -828,6 +828,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -4994,8 +5006,8 @@ TextureImporter:
       ui_newGame: -4986520997795004137
       UI_Game_1024_79: -4881216338747128012
       UI_Game_1024_81: -4406690678310896556
-      UI_Game_1024_80: 3549538731925280909
       UI_Game_1024_176: 5495525624697685194
+      UI_Game_1024_80: 3549538731925280909
       ui_loading: 301975750903292260
       UI_Game_1024_241: 1407366459267311862
       UI_Game_1024_68: -1222382995906372703
@@ -5032,16 +5044,16 @@ TextureImporter:
       UI_Game_1024_211: -8871416024923013512
       ui_Sound: 2962467178413321761
       UI_Game_1024_89: -7919109758266105225
-      UI_Game_1024_169: 3687061380083221762
+      UI_Game_1024_248: 4675848398024776400
       UI_Game_1024_127: 112268503428489220
       UI_Game_1024_192: -5750207526334628396
-      UI_Game_1024_248: 4675848398024776400
       ui_gallery: -3533055782936934318
       ui_open: 7112419321970676928
       UI_Game_1024_206: 2187899324257807485
       UI_Game_1024_115: 8718070325220038360
       UI_Game_1024_76: 671427814053692547
       UI_Game_1024_179: 2045847344805135863
+      UI_Game_1024_169: 3687061380083221762
       UI_Game_1024_178: -5785435856893545265
       UI_Game_1024_60: -7830553897443435348
       UI_Game_1024_223: 1579491308899742558

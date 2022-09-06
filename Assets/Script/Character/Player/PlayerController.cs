@@ -8,23 +8,23 @@ public class PlayerController : MonoBehaviour
 
     [Header("移动设置")]
     [SerializeField] private float startSpeed = 10f;
-    [SerializeField] private float currentSpeed;
-    public float playerHorizontalMove;
+    [DisplayOnly][SerializeField] private float currentSpeed;
+    [DisplayOnly] public float playerHorizontalMove;
 
     [Header("跳跃设置")]
     [SerializeField] private float jumpForce = 10f;
-    [SerializeField] private int startJumpCount = 1;
-    [SerializeField] private int currentJumpCount;
+    [DisplayOnly][SerializeField] private int startJumpCount = 1;
+    [DisplayOnly][SerializeField] private int currentJumpCount;
 
     [Header("角色状态")]
-    public bool isRight;
-    public bool isGround;
-    public bool isJump;
-    public bool isFall;
-    public bool isCrouch;
-    public bool isDashing;
-    private bool jumpPressed;
-    private bool crouchHeld;
+    [DisplayOnly] public bool isRight;
+    [DisplayOnly] public bool isGround;
+    [DisplayOnly] public bool isJump;
+    [DisplayOnly] public bool isFall;
+    [DisplayOnly] public bool isCrouch;
+    [DisplayOnly] public bool isDashing;
+    [DisplayOnly] private bool jumpPressed;
+    [DisplayOnly] private bool crouchHeld;
 
     [Header("Reference")]
     [HideInInspector] public Rigidbody2D rb;
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
     {
         maidCheck.GroundCheck();
 
-        CrouchCheck();
+        CrouchState();
         Jump();
         GroundMovement();
 
@@ -72,13 +72,13 @@ public class PlayerController : MonoBehaviour
 
     private void GroundMovement()
     {
-        FlipCheck();
+        Flip();
 
         playerHorizontalMove = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(playerHorizontalMove * currentSpeed, rb.velocity.y);
     }
 
-    private void FlipCheck()
+    private void Flip()
     {
         if (playerHorizontalMove > 0f)
         {
@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
-        JumpCheck();
+        JumpState();
 
         if (isGround && jumpPressed)
         {
@@ -113,7 +113,7 @@ public class PlayerController : MonoBehaviour
         jumpPressed = false;
     }
 
-    private void JumpCheck()
+    private void JumpState()
     {
         if (isGround)
         {
@@ -149,7 +149,7 @@ public class PlayerController : MonoBehaviour
         currentSpeed = startSpeed;
     }
 
-    private void CrouchCheck()
+    private void CrouchState()
     {
         if (isGround)
         {

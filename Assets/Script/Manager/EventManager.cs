@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class EventCenter : BaseManager<EventCenter>
+public class EventManager : BaseManager<EventManager>
 {
     protected override void Awake()
     {

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PlayerFire : MonoBehaviour
 {
-    [Header("子弹类型")]
+    [Header("子弹设置")]
     public GameObject smallBullet;
     public GameObject middleBullet;
     public int middle_lossMagic;
     public int small_lossMagic;
 
-    [Header("攻击位置")]
+    [Header("攻击设置")]
     [SerializeField] private Transform standFirePoint;
     [SerializeField] private Transform crouchFirePoint;
     public float fireCD = 0.25f;
@@ -71,6 +71,16 @@ public class PlayerFire : MonoBehaviour
         maidAnim.SetTrigger("Attack");
         AudioManager.Instance.SoundPlay("throw_2");
         playerStatus.LossMagic(middle_lossMagic);
+    }
+
+    public void StandFireRay()
+    {
+        //TODO:发射激光
+    }
+
+    public void CrouchFireRay()
+    {
+        //TODO:发射激光
     }
 
 
