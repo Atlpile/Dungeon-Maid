@@ -13,12 +13,12 @@ public class ChaseState : BaseState
 
     public override void OnUpdate(BaseEnemy baseEnemy)
     {
-        throw new System.NotImplementedException();
+
     }
 
     public override void OnFixedUpdate(BaseEnemy baseEnemy)
     {
-        throw new System.NotImplementedException();
+
     }
 
     public override void OnExit(BaseEnemy baseEnemy)

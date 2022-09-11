@@ -8,4 +8,13 @@ public class Mon1 : BaseEnemy
     {
         base.Start();
     }
+
+    protected override void Update()
+    {
+        base.Update();
+    }
+
+
+
+
 }
