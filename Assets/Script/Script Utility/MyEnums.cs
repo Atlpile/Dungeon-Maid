@@ -16,3 +16,12 @@ public enum E_PlatformType
 {
     MoveX, MoveY, Static
 }
+
+public enum E_EnemyState
+{
+    Null, PatrolState, ChaseState, GuardState, FlyState, AttackState
+}
+public enum E_EnemyType
+{
+    Ground, Fly, Static, Boss, Guard
+}
